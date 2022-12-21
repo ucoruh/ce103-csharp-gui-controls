@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorkerControl", "BackgroundWorkerControl\BackgroundWorkerControl.csproj", "{560A7BFA-D864-4B3F-A6FE-FAF8170D11F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonControl", "ButtonControl\ButtonControl.csproj", "{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{560A7BFA-D864-4B3F-A6FE-FAF8170D11F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{560A7BFA-D864-4B3F-A6FE-FAF8170D11F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{560A7BFA-D864-4B3F-A6FE-FAF8170D11F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
