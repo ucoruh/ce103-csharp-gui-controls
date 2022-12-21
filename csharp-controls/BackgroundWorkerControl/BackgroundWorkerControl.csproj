@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{560A7BFA-D864-4B3F-A6FE-FAF8170D11F4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LabelControl</RootNamespace>
-    <AssemblyName>LabelControl</AssemblyName>
+    <RootNamespace>BackgroundWorkerControl</RootNamespace>
+    <AssemblyName>BackgroundWorkerControl</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

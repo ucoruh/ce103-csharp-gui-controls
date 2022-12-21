@@ -84,7 +84,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Label Sample Form";
+            this.Text = "BackgroundWorkerSampleForm";
             this.ResumeLayout(false);
 
         }
