@@ -34,7 +34,11 @@ namespace CheckboxControl
             this.checkboxMovieTypeAction.MouseLeave += new System.EventHandler(this.checkboxMovieType_MouseLeave);
 
             _checkboxScienceFictionEventFlag = true;
-    }
+
+            this.checkboxMovieTypeDrama.CheckedChanged += new System.EventHandler(this.checkboxMovieType_CheckedChanged);
+            this.checkboxMovieTypeScienceFiction.CheckedChanged += new System.EventHandler(this.checkboxMovieType_CheckedChanged);
+            this.checkboxMovieTypeAction.CheckedChanged += new System.EventHandler(this.checkboxMovieType_CheckedChanged);
+        }
 
         private void checkboxMovieType_MouseEnter(object sender, EventArgs e)
         {
@@ -67,9 +71,40 @@ namespace CheckboxControl
             checkboxControl.ForeColor = Color.Black;
         }
 
-        private void checkboxMovieTypeDrama_CheckedChanged(object sender, EventArgs e)
+        private void checkboxMovieType_CheckedChanged(object sender, EventArgs e)
+        {
+            showSelections();
+        }
+
+        private void showSelections()
         {
 
+            bool noSelection = true;
+
+            labelSelectedMovies.ResetText();
+
+            if (checkboxMovieTypeDrama.Checked)
+            {
+                labelSelectedMovies.Text += checkboxMovieTypeDrama.Text + "\r\n";
+                noSelection = false;
+            }
+
+            if (checkboxMovieTypeScienceFiction.Checked)
+            {
+                labelSelectedMovies.Text += checkboxMovieTypeScienceFiction.Text + "\r\n";
+                noSelection = false;
+            }
+
+            if (checkboxMovieTypeAction.Checked)
+            {
+                labelSelectedMovies.Text += checkboxMovieTypeAction.Text + "\r\n";
+                noSelection = false;
+            }
+
+            if(noSelection)
+            {
+                labelSelectedMovies.Text = "No Selection";
+            }
         }
     }
 }
