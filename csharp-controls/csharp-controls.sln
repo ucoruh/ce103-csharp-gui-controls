@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorkerControl", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonControl", "ButtonControl\ButtonControl.csproj", "{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckboxControl", "CheckboxControl\CheckboxControl.csproj", "{2F8CB4CE-2D4C-4E69-962A-B4850F188746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0A6D12-DF4C-40B8-B92B-7D63EF8F58B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8CB4CE-2D4C-4E69-962A-B4850F188746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8CB4CE-2D4C-4E69-962A-B4850F188746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8CB4CE-2D4C-4E69-962A-B4850F188746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8CB4CE-2D4C-4E69-962A-B4850F188746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
